@@ -44,7 +44,29 @@ The guide covers the complete workflow of a book production and publishing. You 
 
 ## Quick start guide 
 
-ALLO style https://blog.allo.io/
+What can you do with ADA Pipeline:
+
+ - Real-time collaborative editing online
+ - Invite your collaborators to work on project
+ - Use citation manager connected to citation databases for automatic citation creation
+ - Collate your documents into a book
+ - Change book layout style and citation style
+ - Ootput multi-format to GitHub or GitLab: eBook, PDF, website, paged web, and LaTeX
+
+ 1. Create and account and or login here https://write.handbuch.io/ | You can login with a GitHub or GitLab account.
+ 2. Choose your working language
+ 3. Select citation style
+ 4. Select document style
+ 5. Invite collaborators to work on documents and a book
+ 6. Use the real-time Word like collaborative document editor
+ 7. Access citation databased to automatically generate citations
+ 8. Collate your documents using the Book Editor
+ 9. Coose a book style and add your cover
+ 10. Review work with track changes
+ 11. Output publication multiformat to Github or GitLab 
+ 12. Output PDF via the browser and save to GitHub/Lab
+ 13. Publishing on Github and use Vivliostyle CSS Typesetting to make a paged website
+ 14. Distribute your publication to academia and book trade, including print-on-demand.
 
 ## Full guide 
 

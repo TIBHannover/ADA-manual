@@ -1,6 +1,6 @@
 # ADA Manual for the Rapid Publishing of Multi-format Books
 
-A guide for the [ADA Publishing Pipeline](https://github.com/TIBHannover/ADA/) for rapid, semantic publishing of books - primarity guides. You can attach other technical system to the pipeline, or design your own pipeline.
+A guide for the [ADA-Pipeline](https://github.com/TIBHannover/ADA/) for rapid, semantic publishing of books - primarity guides. You can attach other technical system to the pipeline, or design your own pipeline.
 
 To contribute create an acount here https://write.handbuch.io/ and either raise an [issue](https://github.com/TIBHannover/ADA-manual/issues) or message on the ADA [community board]( https://github.com/TIBHannover/ADA/discussions) requesting access.
 

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>ADA Manual</title>
+    <link type="text/css" rel="stylesheet" href="css/book.css" />
+    <style>
+      a.fn {
+        -adapt-template: url(data:application/xml,%3Chtml%20xmlns=%22http://www.w3.org/1999/xhtml%22%20xmlns:s=%22http://www.pyroxy.com/ns/shadow%22%3E%3Chead%3E%3Cstyle%3E.footnote-content%7Bfloat:footnote%7D%3C/style%3E%3C/head%3E%3Cbody%3E%3Cs:template%20id=%22footnote%22%3E%3Cs:content/%3E%3Cs:include%20class=%22footnote-content%22/%3E%3C/s:template%3E%3C/body%3E%3C/html%3E#footnote);
+        text-decoration: none;
+        color: inherit;
+        vertical-align: baseline;
+        font-size: 70%;
+        position: relative;
+        top: -0.3em;
+      }
+      body {
+        background-color: white;
+      }
+      section[role=doc-footnote] .footnote-counter:after {
+        content: ". ";
+      }
+      section.fnlist {
+        display: none;
+      }
+      section:footnote-content {
+        display: block;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
+      }
+      .table-of-contents a {
+        display: inline-flex;
+        width: 100%;
+        text-decoration: none;
+        color: currentColor;
+        break-inside: avoid;
+        align-items: baseline;
+      }
+      .table-of-contents a::before {
+        margin-left: 1px;
+        margin-right: 1px;
+        border-bottom: solid 1px lightgray;
+        content: "";
+        order: 1;
+        flex: auto;
+      }
+      .table-of-contents a::after {
+        text-align: right;
+        content: target-counter(attr(href, url), page);
+        align-self: flex-end;
+        flex: none;
+        order: 2;
+      }
+      @page {
+        size: 6in 9in;
+        @top-center {
+          content: env(doc-title);
+        }
+        @bottom-center {
+          content: counter(page);
+        }
+      }
+      @page :first {
+        @bottom-center {
+          content: normal;
+        }
+        @top-center {
+          content: normal;
+        }
+      }
+      figure img {
+        max-width: 100%;
+      }
+      .article-title {
+        page-break-before: right;
+      }
+      h1.part {
+        page-break-before: right;
+      }
+      .copyrightpage {
+        page-break-before: left;
+      }
+      .tocpage {
+        page-break-before: right;
+      }
+      .booktitle {
+        text-align: center;
+      }
+    </style>
+    <link type="text/css" rel="stylesheet" href="css/ada001.css" />
+  </head>
+  <body class="user-contents">
+    <div class="titlepage frontmatter">
+      <h1 class="booktitle">ADA Manual</h1>
+      <h2 class="booksubtitle">Rapid multi-format publishing</h2>
+      <h3 class="bookauthor">by ADA Community</h3>
+      <h4 class="bookversion">v1.0</h4>
+    </div>
+    <div class="copyrightpage frontmatter">
+      <p>Published by: ADA-Pileline</p>
+      <p>Last Updated: 2022-04-07</p>
+      <p>Created: 2022-04-07</p>
+      <p>Language: English</p>
+      <p>Created by: Simon Worthington</p>
+    </div>
+    <div class="tocpage frontmatter">
+      <nav role="doc-toc">
+        <ol>
+          <li>
+            <a href="#_1_0">
+              Sharing Docs and Books with Your Contacts
+            </a>
+            <ol>
+              <li>
+                <a href="#H4501110">
+                  Inviting contact to the platform
+                </a>
+              </li>
+              <li>
+                <a href="#H3388152">
+                  Types of contact access
+                </a>
+              </li>
+              <li>
+                <a href="#H2997562">
+                  Sharing from the file manager
+                </a>
+              </li>
+            </ol>
+          </li>
+        </ol>
+      </nav>
+    </div>
+    <div class="article-part article-title" id="_1_0">Sharing Docs and Books with Your Contacts</div>
+    <div class="article-part article-richtext article-body">
+      <p>You can invite your collaborators to have access to documents and books. This can be done in a variety of locations across the platform:</p>
+      <ul id="L83619401">
+        <li>
+          <p>from your contacts in your account area,</p>
+        </li>
+        <li>
+          <p>Directly from documents or book,</p>
+        </li>
+        <li>
+          <p>Or from the file managers.</p>
+        </li>
+      </ul>
+      <p><strong>Note:</strong> Only the single document or book owner can manage access to files.</p>
+      <h2 id="H4501110">Inviting contact to the platform</h2>
+      <p>Users will be sent an invite email to join the platform. </p>
+      <p>Your contact must accept this invite and agree to the site terms and condition so as to comply with our privacy policy. Contacts cannot be added without having given consent.</p>
+      <p>If the user is already a platform member they will receive a message saying they have been ivited to have access to the files.</p>
+      <p>You can view your contact in your account area and per file.</p>
+      <p><strong>Note:</strong> If a contact joins the platform with their GitLab or GitHub account your invite to the files you are shaing will only work if that account uses the same email address from your invite.</p>
+      <h2 id="H3388152">Types of contact access</h2>
+      <p>Contact can be given different levels of access: viewer, reviewer, editor. Ensure you give editing rights for fellow authors.</p>
+      <h2 id="H2997562">Sharing from the file manager</h2>
+      <p></p>
+    </div>
+    <section class="fnlist" role="doc-footnotes"></section>
+  </body>
+</html>

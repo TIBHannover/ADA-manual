@@ -18,20 +18,36 @@
       <content src="titlepage.xhtml#title" />
     </navPoint>
     <navPoint id="t_1_0-1">
-      <navLabel><text>Sharing Docs and Books with Your Contacts</text></navLabel>
+      <navLabel><text>About</text></navLabel>
       <content src="document-1.xhtml#_1_0" />
-      <navPoint id="tH4501110-1">
+    </navPoint>
+    <navPoint id="t_2_0-2">
+      <navLabel><text>Sharing Docs and Books with Your Contacts</text></navLabel>
+      <content src="document-2.xhtml#_2_0" />
+      <navPoint id="tH4501110-2">
         <navLabel><text>Inviting contact to the platform</text></navLabel>
-        <content src="document-1.xhtml#H4501110" />
+        <content src="document-2.xhtml#H4501110" />
       </navPoint>
-      <navPoint id="tH3388152-1">
+      <navPoint id="tH3388152-2">
         <navLabel><text>Types of contact access</text></navLabel>
-        <content src="document-1.xhtml#H3388152" />
+        <content src="document-2.xhtml#H3388152" />
       </navPoint>
-      <navPoint id="tH2997562-1">
+      <navPoint id="tH2997562-2">
         <navLabel><text>Sharing from the file manager</text></navLabel>
-        <content src="document-1.xhtml#H2997562" />
+        <content src="document-2.xhtml#H2997562" />
       </navPoint>
+    </navPoint>
+    <navPoint id="t_3_0-3">
+      <navLabel><text>Outputting to GitHub and GitLab</text></navLabel>
+      <content src="document-3.xhtml#_3_0" />
+      <navPoint id="tH165647-3">
+        <navLabel><text>GitHub</text></navLabel>
+        <content src="document-3.xhtml#H165647" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="t_4_0-4">
+      <navLabel><text>Glossary</text></navLabel>
+      <content src="document-4.xhtml#_4_0" />
     </navPoint>
     <navPoint id="t2">
       <navLabel><text>Copyright</text></navLabel>

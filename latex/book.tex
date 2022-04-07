@@ -1,5 +1,23 @@
 \documentclass[11pt]{book}
 
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{graphicx}
+                
+\usepackage{calc}
+                
+\newlength{\imgwidth}
+                
+\newcommand\scaledgraphics[2]{%
+                
+\settowidth{\imgwidth}{\includegraphics{#1}}%
+                
+\setlength{\imgwidth}{\minof{\imgwidth}{#2\textwidth}}%
+                
+\includegraphics[width=\imgwidth,height=\textheight,keepaspectratio]{#1}%
+                
+}
+            
 \usepackage{docmute}
 \title{ADA Manual}
 \author{ADA Community}
@@ -10,6 +28,12 @@
 \tableofcontents
 
         \input{chapter-1}
+        
+        \input{chapter-2}
+        
+        \input{chapter-3}
+        
+        \input{chapter-4}
         
 
 \end{document}
